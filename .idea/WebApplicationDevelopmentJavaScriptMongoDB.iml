@@ -5,6 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/textcircle/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/textcircle2/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/textcircle3/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/textcircle4/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/week1/textcircle_end_module_1/.meteor/local" />
     </content>
     <orderEntry type="inheritedJdk" />
