@@ -1,0 +1,27 @@
+/* CSS declarations go here */
+
+.user_avatar{
+	min-height:100px;
+	text-align: center;
+
+}
+.avatar_img{
+	height:75px;
+}
+.media{
+	border: 1px dotted lightgray;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	margin:10px;
+}
+.media-object{
+	margin:10px;
+	width: 50px;
+	height: 50px
+}
+.media-body{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}

@@ -1,0 +1,19 @@
+<!-- display a list of users -->
+<template name="available_user_list">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h2>Click the user you want to chat.</h2>
+			</div>
+		</div>
+		<div class="row">
+			{{#each users}}
+			{{> available_user}}
+			{{/each}}
+		</div>
+	</div>
+
+	
+	
+</template>
