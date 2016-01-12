@@ -1,0 +1,26 @@
+<!-- display an individual user -->
+<template name="available_user">
+	<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+	{{#if isMyUser _id}} 
+		<div class="media bg-success">
+			<a class="pull-left" href="#">
+				<img class="media-object responsive" src="{{profile.avatar}}" alt="Image">
+			</a>
+			<div class="media-body">
+				<h4 class="media-heading">(YOU) {{getUserName _id}} </h4>
+			</div>
+		</div>
+	{{else}}
+		<div class="media bg-danger">
+			<a class="pull-left" href="/chat/{{_id}}">
+				<img class="media-object" src="{{profile.avatar}}" alt="Image">
+			</a>
+			<div class="media-body">
+				<a href="/chat/{{_id}}" title="User"> <h4 class="media-heading">{{getUserName _id}}</h4></a>
+			</div>
+		</div>
+	{{/if}}
+	</div><!-- end columns -->
+	
+		
+</template>

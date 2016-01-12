@@ -1,0 +1,16 @@
+<!-- simple template that displays a message -->
+<template name="chat_message">
+	<div class="{{messageBackgroundClass sentBy}}">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="media">
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					<div class="media-body">
+						<h4 class="media-heading">{{timeStamp}}-{{getUserById sentBy}} </h4>
+						{{text}}
+					</div>
+				</div><!-- end column -->
+			</div>
+		</div>
+	</div><!-- end columns -->
+	<br>
+</template>
